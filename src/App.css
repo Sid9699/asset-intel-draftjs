@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0px;
+}
+
+#root {
+  padding: 32px 64px;
+}
+
+#root .DraftEditor-root {
+  height: 92%;
+}
+
+#root .DraftEditor-editorContainer {
+  height: 100%;
+}
+
+.public-DraftEditor-content {
+  height: 100%;
+  border: 4px solid #9dc0f2;
+  padding: 16px;
+  overflow: scroll;
+}
+
+.editor-header {
+  height: 8%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.editor-header h3 {
+  margin: 0px;
+  flex: 1;
+}
+
+.editor-header button {
+  background-color: white;
+  border: 3px solid black;
+  padding: 6px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
